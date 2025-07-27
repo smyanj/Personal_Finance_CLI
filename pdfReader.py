@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 key = os.getenv("OPEN_AI_KEY")
 client = OpenAI(api_key=key)
 
-
 def extract_quote(pdf_path="Tii.PDF", page_number=0):
     with pdfplumber.open(pdf_path) as pdf:
         if page_number >= len(pdf.pages):
