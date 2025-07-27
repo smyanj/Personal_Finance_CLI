@@ -20,7 +20,7 @@ def add_to_watchlist(ticker):
         return f"{ticker} added to watchlist."
     return f"{ticker} is already in your watchlist."
 
-def remove_from_watchlist(ticket):
+def remove_from_watchlist(ticker):
     watchlist = load_watchlist()
     ticker = ticker.upper()
     if ticker in watchlist:

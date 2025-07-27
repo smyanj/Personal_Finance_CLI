@@ -14,9 +14,9 @@ Using Typer as the CLI tool library
 
 TO DO:
     Initial app:
- - Initialize basic app, using Typer []
- - Connect to Yahoo Finance and successfully pull data []
- - When called, should add any companies I added to my "portfolio" []
+ - Initialize basic app, using Typer [x]
+ - Connect to Yahoo Finance and successfully pull data [x]
+ - When called, should add/remove any companies I added to my "portfolio" based on symbol [x]
     
     Recommendation platform:
 - Figure out how to implement gpt, or to make gpt calls []

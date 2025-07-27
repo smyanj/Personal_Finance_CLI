@@ -1,7 +1,7 @@
 import typer
 
 from myStocks import get_stock_data, display_stock_data, add_to_watchlist, load_watchlist, remove_from_watchlist
-
+from pdfReader import extract_quote
 #initializing app
 app = typer.Typer()
 
@@ -18,19 +18,26 @@ def add_company(ticker:str):
     result = add_to_watchlist(ticker)
     typer.echo(result)
 
+@app.command()
 def remove_company(ticker:str):
     result = remove_from_watchlist(ticker)
     typer.echo(result)
 
-#Gives recommnedation for today
+
+#Gives recomendation for today
 @app.command()
-def rec():
+def reccom():
     pass
 
 #quote from intelligent investor
 @app.command()
-def book_quote():
-    pass
+def pick_quote(page: int):
+    """
+    Extracts an insightful quote from a specific page of The Intelligent Investor.
+    """
+    quote = extract_quote(page_number=page)
+    print(f"\n📖 GPT-Chosen Quote (Page {page}):\n\"{quote}\"")
+
 
 if __name__ == "__main__":
     app()
