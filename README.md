@@ -12,17 +12,46 @@ Using Typer as the CLI tool library
 
 
 
-TO DO:
-    Initial app:
- - Initialize basic app, using Typer [x]
- - Connect to Yahoo Finance and successfully pull data [x]
- - When called, should add/remove any companies I added to my "portfolio" based on symbol [x]
-    
-    Recommendation platform:
-- Figure out how to implement gpt, or to make gpt calls []
-- Decide on a model to use to help assist with recommending []
-- Have the gpt give 3 recommneded stocks based on my current portfolio, for the day []
+Using this app!
 
-    Book tip:
-- Parse through intelligent investor
-- Give quotes from the book that might be helpful in investing
+# 📊 Personal Finance CLI Tool
+
+A command-line tool for tracking your stock portfolio, receiving financial insights, and extracting investing wisdom — powered by GPT.
+
+---
+
+## 🚀 Features
+
+- ✅ Add and remove stocks from your watchlist
+- 📈 View your top performing stocks
+- 💬 Get GPT-generated advice on your stock portfolio
+- 📚 Extract insightful quotes from *The Intelligent Investor*
+
+---
+
+## 🛠️ Setup
+
+1. **Clone this repo**  
+   ```bash
+   git clone https://github.com/yourusername/Personal_Finance_CLI.git
+   cd Personal_Finance_CLI
+
+
+
+## .env setup
+OPEN_AI_KEY=your_openai_api_key
+YAHOO_api_key=your_yahoo_api_key
+YAHOO_client_secret=your_yahoo_client_secret
+
+## Usage with Typer
+Use:
+python main.py [COMMAND] or --help which will provide this menu
+
+
+## Top Stocks which shows current watchlist and stock data
+
+## add-company: adds company to current watchlist based on ticker
+## remove-company: removes company from watchlist based on ticker
+
+
+## Stocks-Advice: gives recommendations based on current portfolio
