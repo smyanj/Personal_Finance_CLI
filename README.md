@@ -6,8 +6,7 @@ Using Typer as the CLI tool library
 
 - Functions:
     - Add stocks based on name and it adds it to your running list
-    - Recommends you 3 stocks every day to add to your portfolio
-    - Gives you a random fun fact quote from the intelligent investor book
+    - Personalized recommendations based on stock portfolio
 
 
 
