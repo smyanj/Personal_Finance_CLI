@@ -1,30 +1,15 @@
-# Personal_Finance_CLI
-Building a CLI tool that utilizes Python to aggregate information about stocks which I can call through the terminal to see what stocks I should be investing in right now and which ones I should be selling
-
-
-Using Typer as the CLI tool library
-
-- Functions:
-    - Add stocks based on name and it adds it to your running list
-    - Personalized recommendations based on stock portfolio
-
-
-
-
-Using this app!
-
 # 📊 Personal Finance CLI Tool
 
-A command-line tool for tracking your stock portfolio, receiving financial insights, and extracting investing wisdom — powered by GPT.
+A command-line tool for tracking your stock portfolio, and personalized financial insights.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Add and remove stocks from your watchlist
-- 📈 View your top performing stocks
-- 💬 Get GPT-generated advice on your stock portfolio
-- 📚 Extract insightful quotes from *The Intelligent Investor*
+- Add stocks based on name and it adds it to your running list
+- Personalized recommendations based on stock portfolio
+
+
 
 ---
 
