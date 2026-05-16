@@ -1,4 +1,4 @@
-# 📊 Personal Finance CLI Tool
+# Personal Finance CLI Tool
 
 A command-line tool for tracking your stock portfolio, and personalized financial insights.
 
